@@ -29,5 +29,16 @@ namespace ProyectoCS
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+
+		
+		void BtnCrearClick(object sender, EventArgs e)
+		{
+			
+			char nombre= char.Parse(Txtnombre.Text);
+			char apellidop= char.Parse(Txtapellido1.Text);
+			char apellidom= char.Parse(Txtapellido2.Text);
+			LblRFC2.Text += apellidop(2).ToString() + apellidom(1).ToString() + nombre(1).ToString();
+		}
 	}
 }
