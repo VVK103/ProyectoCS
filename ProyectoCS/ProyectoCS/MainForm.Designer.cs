@@ -51,9 +51,9 @@ namespace ProyectoCS
 			this.Txtapellido2 = new System.Windows.Forms.TextBox();
 			this.Lblsemestre = new System.Windows.Forms.Label();
 			this.comboBox1 = new System.Windows.Forms.ComboBox();
-			this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
 			this.label1 = new System.Windows.Forms.Label();
 			this.BtnCrear = new System.Windows.Forms.Button();
+			this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
 			this.SuspendLayout();
 			// 
 			// Lblnombre
@@ -86,7 +86,7 @@ namespace ProyectoCS
 			// Lbltelefono
 			// 
 			this.Lbltelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Lbltelefono.Location = new System.Drawing.Point(38, 171);
+			this.Lbltelefono.Location = new System.Drawing.Point(38, 170);
 			this.Lbltelefono.Name = "Lbltelefono";
 			this.Lbltelefono.Size = new System.Drawing.Size(121, 23);
 			this.Lbltelefono.TabIndex = 3;
@@ -95,7 +95,7 @@ namespace ProyectoCS
 			// Lbldireccion
 			// 
 			this.Lbldireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Lbldireccion.Location = new System.Drawing.Point(38, 206);
+			this.Lbldireccion.Location = new System.Drawing.Point(38, 205);
 			this.Lbldireccion.Name = "Lbldireccion";
 			this.Lbldireccion.Size = new System.Drawing.Size(121, 23);
 			this.Lbldireccion.TabIndex = 4;
@@ -104,7 +104,7 @@ namespace ProyectoCS
 			// LblFNac
 			// 
 			this.LblFNac.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.LblFNac.Location = new System.Drawing.Point(38, 278);
+			this.LblFNac.Location = new System.Drawing.Point(38, 282);
 			this.LblFNac.Name = "LblFNac";
 			this.LblFNac.Size = new System.Drawing.Size(121, 23);
 			this.LblFNac.TabIndex = 5;
@@ -113,7 +113,7 @@ namespace ProyectoCS
 			// LblRFC
 			// 
 			this.LblRFC.Font = new System.Drawing.Font("Microsoft Uighur", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.LblRFC.Location = new System.Drawing.Point(12, 321);
+			this.LblRFC.Location = new System.Drawing.Point(38, 316);
 			this.LblRFC.Name = "LblRFC";
 			this.LblRFC.Size = new System.Drawing.Size(236, 28);
 			this.LblRFC.TabIndex = 6;
@@ -122,11 +122,10 @@ namespace ProyectoCS
 			// LblRFC2
 			// 
 			this.LblRFC2.Font = new System.Drawing.Font("Microsoft Uighur", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.LblRFC2.Location = new System.Drawing.Point(12, 349);
+			this.LblRFC2.Location = new System.Drawing.Point(38, 344);
 			this.LblRFC2.Name = "LblRFC2";
 			this.LblRFC2.Size = new System.Drawing.Size(236, 23);
 			this.LblRFC2.TabIndex = 7;
-			this.LblRFC2.Text = "**********";
 			// 
 			// Txtnombre
 			// 
@@ -144,14 +143,14 @@ namespace ProyectoCS
 			// 
 			// Txttelefono
 			// 
-			this.Txttelefono.Location = new System.Drawing.Point(183, 168);
+			this.Txttelefono.Location = new System.Drawing.Point(183, 167);
 			this.Txttelefono.Name = "Txttelefono";
 			this.Txttelefono.Size = new System.Drawing.Size(200, 20);
 			this.Txttelefono.TabIndex = 10;
 			// 
 			// Txtdireccion
 			// 
-			this.Txtdireccion.Location = new System.Drawing.Point(183, 203);
+			this.Txtdireccion.Location = new System.Drawing.Point(183, 202);
 			this.Txtdireccion.Name = "Txtdireccion";
 			this.Txtdireccion.Size = new System.Drawing.Size(200, 20);
 			this.Txtdireccion.TabIndex = 11;
@@ -166,7 +165,7 @@ namespace ProyectoCS
 			// Lblsemestre
 			// 
 			this.Lblsemestre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Lblsemestre.Location = new System.Drawing.Point(38, 242);
+			this.Lblsemestre.Location = new System.Drawing.Point(38, 241);
 			this.Lblsemestre.Name = "Lblsemestre";
 			this.Lblsemestre.Size = new System.Drawing.Size(121, 23);
 			this.Lblsemestre.TabIndex = 13;
@@ -182,20 +181,11 @@ namespace ProyectoCS
 									"4to Semestre",
 									"5to Semestre",
 									"6to Semestre"});
-			this.comboBox1.Location = new System.Drawing.Point(183, 239);
+			this.comboBox1.Location = new System.Drawing.Point(183, 238);
 			this.comboBox1.Name = "comboBox1";
 			this.comboBox1.Size = new System.Drawing.Size(200, 21);
 			this.comboBox1.TabIndex = 19;
 			this.comboBox1.Tag = "";
-			// 
-			// dateTimePicker1
-			// 
-			this.dateTimePicker1.Location = new System.Drawing.Point(183, 278);
-			this.dateTimePicker1.MaxDate = new System.DateTime(3000, 12, 31, 0, 0, 0, 0);
-			this.dateTimePicker1.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
-			this.dateTimePicker1.Name = "dateTimePicker1";
-			this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-			this.dateTimePicker1.TabIndex = 20;
 			// 
 			// label1
 			// 
@@ -208,22 +198,29 @@ namespace ProyectoCS
 			// 
 			// BtnCrear
 			// 
-			this.BtnCrear.Location = new System.Drawing.Point(343, 326);
+			this.BtnCrear.Location = new System.Drawing.Point(298, 316);
 			this.BtnCrear.Name = "BtnCrear";
-			this.BtnCrear.Size = new System.Drawing.Size(74, 46);
+			this.BtnCrear.Size = new System.Drawing.Size(85, 51);
 			this.BtnCrear.TabIndex = 22;
 			this.BtnCrear.Text = "Crear";
 			this.BtnCrear.UseVisualStyleBackColor = true;
 			this.BtnCrear.Click += new System.EventHandler(this.BtnCrearClick);
 			// 
+			// dateTimePicker1
+			// 
+			this.dateTimePicker1.Location = new System.Drawing.Point(183, 278);
+			this.dateTimePicker1.Name = "dateTimePicker1";
+			this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+			this.dateTimePicker1.TabIndex = 23;
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(429, 407);
+			this.ClientSize = new System.Drawing.Size(437, 407);
+			this.Controls.Add(this.dateTimePicker1);
 			this.Controls.Add(this.BtnCrear);
 			this.Controls.Add(this.label1);
-			this.Controls.Add(this.dateTimePicker1);
 			this.Controls.Add(this.comboBox1);
 			this.Controls.Add(this.Lblsemestre);
 			this.Controls.Add(this.Txtapellido2);
@@ -244,9 +241,9 @@ namespace ProyectoCS
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.DateTimePicker dateTimePicker1;
 		private System.Windows.Forms.Button BtnCrear;
 		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.DateTimePicker dateTimePicker1;
 		private System.Windows.Forms.ComboBox comboBox1;
 		private System.Windows.Forms.Label Lblsemestre;
 		private System.Windows.Forms.TextBox Txtapellido2;

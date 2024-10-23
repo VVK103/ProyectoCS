@@ -35,9 +35,23 @@ namespace ProyectoCS
 		void BtnCrearClick(object sender, EventArgs e)
 		{
 			
-			char nombre= char.Parse(Txtnombre.Text);
-			char apellidop= char.Parse(Txtapellido1.Text);
-			char apellidom= char.Parse(Txtapellido2.Text);
+			string Snombre = Txtnombre.Text;
+			string Sapellidop = Txtapellido1.Text;
+			string Sapellidom = Txtapellido2.Text;
+			var nombre = Snombre[0];
+			var apellidop1 = Sapellidop[0];
+			var apellidop2 = Sapellidop[1];
+			var apellidom = Sapellidom[0];
+			int año = dateTimePicker1.Value.Year;
+			string año2 = (año%100).ToString("00");
+			int mes = dateTimePicker1.Value.Month;
+			string mes2= mes.ToString("00");
+			int dia = dateTimePicker1.Value.Day;
+			string dia2 = dia.ToString("00");
+			
+			
+			
+			LblRFC2.Text += apellidop1.ToString() + apellidop2.ToString() + apellidom.ToString() + nombre.ToString() + año2 + mes2 + dia2;
 			
 		}
 	}
