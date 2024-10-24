@@ -52,6 +52,7 @@ namespace ProyectoCS
 			this.label1 = new System.Windows.Forms.Label();
 			this.BtnCrear = new System.Windows.Forms.Button();
 			this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+			this.Btnacercade = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// Lblnombre
@@ -194,11 +195,22 @@ namespace ProyectoCS
 			this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
 			this.dateTimePicker1.TabIndex = 23;
 			// 
+			// Btnacercade
+			// 
+			this.Btnacercade.Location = new System.Drawing.Point(12, 372);
+			this.Btnacercade.Name = "Btnacercade";
+			this.Btnacercade.Size = new System.Drawing.Size(75, 23);
+			this.Btnacercade.TabIndex = 24;
+			this.Btnacercade.Text = "Acerca de.";
+			this.Btnacercade.UseVisualStyleBackColor = true;
+			this.Btnacercade.Click += new System.EventHandler(this.BtnacercadeClick);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(437, 407);
+			this.ClientSize = new System.Drawing.Size(404, 402);
+			this.Controls.Add(this.Btnacercade);
 			this.Controls.Add(this.dateTimePicker1);
 			this.Controls.Add(this.BtnCrear);
 			this.Controls.Add(this.label1);
@@ -220,6 +232,7 @@ namespace ProyectoCS
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button Btnacercade;
 		private System.Windows.Forms.DateTimePicker dateTimePicker1;
 		private System.Windows.Forms.Button BtnCrear;
 		private System.Windows.Forms.Label label1;

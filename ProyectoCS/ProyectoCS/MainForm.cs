@@ -56,5 +56,10 @@ namespace ProyectoCS
 			
 			
 		}
+		
+		void BtnacercadeClick(object sender, EventArgs e)
+		{
+			Acercade acercade = new Acercade();
+		}
 	}
 }
