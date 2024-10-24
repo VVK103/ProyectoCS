@@ -31,17 +31,20 @@ namespace ProyectoCS
 		}
 		
 
+		//Creamos un evento cuando hacemos Click en el boton Crear
 		
 		void BtnCrearClick(object sender, EventArgs e)
 		{
-			
+			//Convertimos tododa la informacion ingresada
 			string Snombre = Txtnombre.Text;
 			string Sapellidop = Txtapellido1.Text;
 			string Sapellidom = Txtapellido2.Text;
+			//Seleccionamos las letras que necesitamos 
 			var nombre = Snombre[0];
 			var apellidop1 = Sapellidop[0];
 			var apellidop2 = Sapellidop[1];
 			var apellidom = Sapellidom[0];
+			//Seleccionamos los datos que necesitamos de el calendario y los convertimos en string
 			int año = dateTimePicker1.Value.Year;
 			string año2 = (año%100).ToString("00");
 			int mes = dateTimePicker1.Value.Month;
@@ -50,7 +53,7 @@ namespace ProyectoCS
 			string dia2 = dia.ToString("00");
 			
 			
-			
+			//Hacemos que el Label muestre todos los datos de el RFC
 			LblRFC2.Text += apellidop1.ToString() + apellidop2.ToString() + apellidom.ToString() + nombre.ToString() + año2 + mes2 + dia2;
 			
 		}
