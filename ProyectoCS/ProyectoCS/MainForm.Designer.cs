@@ -209,7 +209,8 @@ namespace ProyectoCS
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(404, 402);
+			this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+			this.ClientSize = new System.Drawing.Size(443, 402);
 			this.Controls.Add(this.Btnacercade);
 			this.Controls.Add(this.dateTimePicker1);
 			this.Controls.Add(this.BtnCrear);
@@ -227,6 +228,7 @@ namespace ProyectoCS
 			this.Controls.Add(this.Lblapellido2);
 			this.Controls.Add(this.Lblapellido1);
 			this.Controls.Add(this.Lblnombre);
+			this.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.Name = "MainForm";
 			this.Text = "Registro";
 			this.ResumeLayout(false);
