@@ -50,11 +50,10 @@ namespace ProyectoCS
 			int mes = dateTimePicker1.Value.Month;
 			string mes2= mes.ToString("00");
 			int dia = dateTimePicker1.Value.Day;
-			string dia2 = dia.ToString("00");
+			string dia2 = dia.ToString("00");	
+			RFC RFC = new RFC();
+				
 			
-			
-			//Hacemos que el Label muestre todos los datos de el RFC
-			LblRFC2.Text += apellidop1.ToString() + apellidop2.ToString() + apellidom.ToString() + nombre.ToString() + año2 + mes2 + dia2;
 			
 		}
 	}

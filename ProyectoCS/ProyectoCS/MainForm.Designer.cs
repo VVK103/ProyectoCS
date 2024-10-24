@@ -42,8 +42,6 @@ namespace ProyectoCS
 			this.Lbltelefono = new System.Windows.Forms.Label();
 			this.Lbldireccion = new System.Windows.Forms.Label();
 			this.LblFNac = new System.Windows.Forms.Label();
-			this.LblRFC = new System.Windows.Forms.Label();
-			this.LblRFC2 = new System.Windows.Forms.Label();
 			this.Txtnombre = new System.Windows.Forms.TextBox();
 			this.Txtapellido1 = new System.Windows.Forms.TextBox();
 			this.Txttelefono = new System.Windows.Forms.TextBox();
@@ -109,23 +107,6 @@ namespace ProyectoCS
 			this.LblFNac.Size = new System.Drawing.Size(121, 23);
 			this.LblFNac.TabIndex = 5;
 			this.LblFNac.Text = "F. Nacimiento:";
-			// 
-			// LblRFC
-			// 
-			this.LblRFC.Font = new System.Drawing.Font("Microsoft Uighur", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.LblRFC.Location = new System.Drawing.Point(38, 316);
-			this.LblRFC.Name = "LblRFC";
-			this.LblRFC.Size = new System.Drawing.Size(236, 28);
-			this.LblRFC.TabIndex = 6;
-			this.LblRFC.Text = "Registro Federal de Contribuyentes(RFC)";
-			// 
-			// LblRFC2
-			// 
-			this.LblRFC2.Font = new System.Drawing.Font("Microsoft Uighur", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.LblRFC2.Location = new System.Drawing.Point(38, 344);
-			this.LblRFC2.Name = "LblRFC2";
-			this.LblRFC2.Size = new System.Drawing.Size(236, 23);
-			this.LblRFC2.TabIndex = 7;
 			// 
 			// Txtnombre
 			// 
@@ -198,7 +179,7 @@ namespace ProyectoCS
 			// 
 			// BtnCrear
 			// 
-			this.BtnCrear.Location = new System.Drawing.Point(298, 316);
+			this.BtnCrear.Location = new System.Drawing.Point(155, 308);
 			this.BtnCrear.Name = "BtnCrear";
 			this.BtnCrear.Size = new System.Drawing.Size(85, 51);
 			this.BtnCrear.TabIndex = 22;
@@ -228,8 +209,6 @@ namespace ProyectoCS
 			this.Controls.Add(this.Txttelefono);
 			this.Controls.Add(this.Txtapellido1);
 			this.Controls.Add(this.Txtnombre);
-			this.Controls.Add(this.LblRFC2);
-			this.Controls.Add(this.LblRFC);
 			this.Controls.Add(this.LblFNac);
 			this.Controls.Add(this.Lbldireccion);
 			this.Controls.Add(this.Lbltelefono);
@@ -251,8 +230,6 @@ namespace ProyectoCS
 		private System.Windows.Forms.TextBox Txttelefono;
 		private System.Windows.Forms.TextBox Txtapellido1;
 		private System.Windows.Forms.TextBox Txtnombre;
-		private System.Windows.Forms.Label LblRFC2;
-		private System.Windows.Forms.Label LblRFC;
 		private System.Windows.Forms.Label LblFNac;
 		private System.Windows.Forms.Label Lbldireccion;
 		private System.Windows.Forms.Label Lbltelefono;

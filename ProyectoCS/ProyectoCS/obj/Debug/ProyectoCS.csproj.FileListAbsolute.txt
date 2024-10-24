@@ -5,3 +5,4 @@ C:\Users\CC2_PC34\Documents\ProyectoCS\ProyectoCS\ProyectoCS\obj\Debug\ProyectoC
 C:\Users\CC2_PC34\Documents\ProyectoCS\ProyectoCS\ProyectoCS\obj\Debug\ProyectoCS.csproj.GenerateResource.Cache
 C:\Users\CC2_PC34\Documents\ProyectoCS\ProyectoCS\ProyectoCS\obj\Debug\ProyectoCS.exe
 C:\Users\CC2_PC34\Documents\ProyectoCS\ProyectoCS\ProyectoCS\obj\Debug\ProyectoCS.pdb
+C:\Users\CC2_PC34\Documents\ProyectoCS\ProyectoCS\ProyectoCS\obj\Debug\ProyectoCS.RFC.resources
